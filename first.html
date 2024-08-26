@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        height: 100px;
+        background-color: rgb(219, 219, 219);
+        max-width: 1200px;
+    }
+    .image{
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .text{
+        width: 100px;
+        align-items: center;
+        background-color: orangered;
+        max-width: 1200px;
+        padding: 20px 0px 15px 20px;
+        color: white;
+        border-radius: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .text1{
+        font-size: 30px;
+        max-width: 1200px;
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .text3{
+        color: rgb(219, 219, 219);
+        text-decoration: line-through;
+        max-width: 1200px;
+    }
+    .image2{
+        border: 1px solid;
+        width: 300px;
+        background-color: rgb(21, 21, 133);
+        padding: 10px 0px 0px 0px;
+        border-radius: 5px;
+        max-width: 1200px;
+    }
+    .post-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    /* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+     /* Media query for smaller screens */
+     @media (max-width: 768px) {
+            .col {
+                flex-basis: 100%;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .col {
+                flex-basis: 50%;
+            }
+        } 
+       .text4{
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }  
+       .text5{
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }  
+       .text6{
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }  
+</style>
+<body>
+    <div class="header"></div>
+    <div class="image">
+        <img src="pictures/watch1.jfif" alt="" width="400px">
+        <div class="column">
+        <p class="text">On Promo</p>
+        <p class="text1">Apple Watch SE 44mm GPS</p>
+        <p>N499,000.00</p>
+        <p class="text3">N549,000.00</p>
+        <img class="image2" src="pictures/bx-cart.svg" alt="" width="50px" height="50px">
+        <p class="text4">Apple Watch SE (2nd Generation) GPS 44mm </p>
+        <p class="text5">Heavy on features. Light on price.</p>
+        <p>Essential features to help you stay connected, active, healthy, and safe. Perfect for kids and older adults using Family Setup.
+        </p>
+        <p class="text6">Key Features</p>
+        <ul>
+            <li>Take calls and reply to texts, right from your wrist</li>
+            <li>Up to 20% faster than the previous Apple Watch SE</li>
+            <li> Advanced safety features, including Fall Detection, Emergency SOS, and Crash Detection</li>
+            <li>Enhanced Workout app with more advanced ways to train</li>
+            <li>Get high and low heart rate and irregular rhythm notifications</li>
+            <li> Listen to your favorite music, podcasts, and audiobooks (for use with GPS models)</li>
+            <li>Swimproof design</li>
+            <li>Apple Watch comes with 3 free months of Apple Fitness+, featuring 11 different workout types, from HIIT to Yoga, and even meditations</li>
+            <li>Set up and manage an Apple Watch for each family member, right from your iPhone, with Family Setup</li>
+        </ul>
+    </div>
+    </div>
+    <a href="product.html" class="post-link">Back to Home</a>
+     <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Timeless Watches. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
